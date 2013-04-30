@@ -16,11 +16,19 @@ function jsonrequest_template_redirect() {
 
     global $query_string, $post, $wp_query;
     $post_id = $post->ID;
-    
+
     if(isset($_REQUEST['json']) && is_category()) :  
         if( have_posts()) : 
-            $output['previousURL'] = esc_html(previous_posts(false));
-            $output['nextURL'] = esc_html(next_posts($wp_query->max_num_pages, false));
+            if (previous_posts(false)) {
+                $output['previousURL'] = esc_html(previous_posts(false));
+            }
+            
+            if (next_posts($wp_query->max_num_pages, false)) {
+                $output['nextURL'] = esc_html(next_posts($wp_query->max_num_pages, false));
+            }
+
+            $output['category'] = esc_html(single_cat_title("", false));
+
             while( have_posts() ) : the_post();
                 $output['posts'][]= array( 'title' => get_the_title(), 'excerpt' => esc_html( get_the_excerpt() ) );
             endwhile;
