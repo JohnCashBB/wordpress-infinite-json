@@ -92,34 +92,13 @@
 	"buffers":
 	[
 		{
+			"contents": "{\n  \"name\": \"bb-project\",\n  \"preferGlobal\": true,\n  \"version\": \"0.4.0\",\n  \"author\": \"Building Blocks Ltd.\",\n  \"homepage\": \"http://www.building-blocks.com\",\n  \"description\": \"Basic Building Blocks grunt project for grunt v0.4\",\n  \"contributors\": [\n    {\n      \"name\": \"John Cashmore\",\n      \"email\": \"j.cashmore@building-blocks.com\"\n    },\n    {\n      \"name\": \"Paul Welsh\",\n      \"email\": \"p.welsh@building-blocks.com\"\n    }\n  ],\n  \"dependencies\": {\n    \"grunt\": \"0.4.x\"\n  },\n  \"devDependencies\": {\n    \"grunt\": \"0.4.x\",\n    \"grunt-contrib-less\": \"~0.5.0\",\n    \"grunt-contrib-concat\": \"~0.2.0\",\n    \"grunt-init\": \"~0.2.0\",\n    \"grunt-contrib-uglify\": \"~0.2.0\",\n    \"grunt-contrib-jshint\": \"~0.4.3\",\n    \"grunt-contrib-watch\": \"~0.3.1\"\n  }\n}\n",
 			"file": "package.json",
+			"file_size": 740,
+			"file_write_time": 1367347748000000,
 			"settings":
 			{
-				"buffer_size": 560,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 2340,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_scripts/main.js",
-			"settings":
-			{
-				"buffer_size": 8167,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".editorconfig",
-			"settings":
-			{
-				"buffer_size": 147,
+				"buffer_size": 740,
 				"line_ending": "Unix"
 			}
 		}
@@ -168,6 +147,10 @@
 	},
 	"file_history":
 	[
+		"/Users/johncashmore/GitHub/wordpress-infinite-json/infinite-json/infinite-json.php",
+		"/Users/johncashmore/GitHub/wordpress-infinite-json/Gruntfile.js",
+		"/Users/johncashmore/GitHub/wordpress-infinite-json/_scripts/main.js",
+		"/Users/johncashmore/GitHub/wordpress-infinite-json/.editorconfig",
 		"/C/Projects/BD/HTML/BD-Layout-Product-Landing-Page.html",
 		"/C/Projects/BD/HTML/BD-Layout-Form.html",
 		"/C/Projects/BD/HTML/_scripts/main.js",
@@ -291,11 +274,7 @@
 		"/C/Projects/RCC_Projects/Celebrity 2012/HTML/_styles/less/mixins.less",
 		"/C/Projects/RCC_Projects/Celebrity 2012/HTML/_styles/less/body.less",
 		"/C/Projects/RCC_Projects/Celebrity 2012/HTML/_styles/less/footer.less",
-		"/C/Projects/RCC_Projects/Celebrity 2012/HTML/_styles/less/type.less",
-		"/C/Projects/RCC_Projects/Celebrity 2012/HTML/RCC_CelebrityCruises-Layout-A.html",
-		"/C/Projects/RCC_Projects/Celebrity 2012/HTML_styles/less/header.less",
-		"/C/Projects/RCC_Projects/Celebrity 2012/HTML_styles/less/variables.less",
-		"/C/Projects/RCC_Projects/Celebrity 2012/HTML_styles/less/layout.less"
+		"/C/Projects/RCC_Projects/Celebrity 2012/HTML/_styles/less/type.less"
 	],
 	"find":
 	{
@@ -477,7 +456,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -485,99 +464,7 @@
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 560,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								326,
-								326
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Gruntfile.js",
-					"settings":
-					{
-						"buffer_size": 2340,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1774,
-								1774
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 892.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_scripts/main.js",
-					"settings":
-					{
-						"buffer_size": 8167,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								290,
-								290
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": ".editorconfig",
-					"settings":
-					{
-						"buffer_size": 147,
+						"buffer_size": 740,
 						"regions":
 						{
 						},
@@ -585,15 +472,19 @@
 						[
 							[
 								0,
-								147
+								0
 							]
 						],
 						"settings":
 						{
+							"ensure_newline_at_eof_on_save": true,
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false,
+							"trim_trailing_white_space_on_save": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

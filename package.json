@@ -1,0 +1,30 @@
+{
+  "name": "bb-project",
+  "preferGlobal": true,
+  "version": "0.4.0",
+  "author": "Building Blocks Ltd.",
+  "homepage": "http://www.building-blocks.com",
+  "description": "Basic Building Blocks grunt project for grunt v0.4",
+  "contributors": [
+    {
+      "name": "John Cashmore",
+      "email": "j.cashmore@building-blocks.com"
+    },
+    {
+      "name": "Paul Welsh",
+      "email": "p.welsh@building-blocks.com"
+    }
+  ],
+  "dependencies": {
+    "grunt": "0.4.x"
+  },
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-less": "~0.5.0",
+    "grunt-contrib-concat": "~0.2.0",
+    "grunt-init": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-watch": "~0.3.1"
+  }
+}
