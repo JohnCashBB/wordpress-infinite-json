@@ -33,6 +33,8 @@ function jsonrequest_template_redirect() {
 
             if (next_posts($wp_query->max_num_pages, false)) {
                 $output['nextURL'] = esc_html(next_posts($wp_query->max_num_pages, false));
+            } else {
+            	$output['nextURL'] = null;
             }
 
 
